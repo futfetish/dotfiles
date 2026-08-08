@@ -27,3 +27,6 @@ alias upd="sudo dnf update"
 alias ll="ls -lah"
 alias c="clear"
 alias code='flatpak run com.visualstudio.code'
+alias rot13="tr 'A-Za-z' 'N-ZA-Mn-za-m'"
+
+export PATH=$PATH:/home/futfetish/.spicetify
