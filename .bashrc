@@ -28,5 +28,6 @@ alias ll="ls -lah"
 alias c="clear"
 alias code='flatpak run com.visualstudio.code'
 alias rot13="tr 'A-Za-z' 'N-ZA-Mn-za-m'"
+alias dotfiles='/usr/bin/git --git-dir="$HOME/.dotfiles" --work-tree="$HOME"'
 
 export PATH=$PATH:/home/futfetish/.spicetify
